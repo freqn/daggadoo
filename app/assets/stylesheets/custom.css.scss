@@ -1,1 +1,17 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
+$navbar-height:      45px;
+$btn-default-bg: #2980b9;
+$btn-default-color: #fff;
+$btn-success-bg: #2ABB67;
+
 @import "bootstrap";
+
+.center {
+  text-align: center;
+  background: #ffffff
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
