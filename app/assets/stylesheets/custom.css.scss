@@ -7,9 +7,26 @@ $btn-success-bg: #2ABB67;
 
 @import "bootstrap";
 
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+body{
+  background: #DCDED6;
+  margin-top: 92px;
+}
+
+.media-element {
+  border-radius: 40px;
+  @include border-radius(40px);
+}
+
 .center {
   text-align: center;
-  background: #ffffff
+  background: #FFFFFF;
 }
 
 .navbar-brand {
