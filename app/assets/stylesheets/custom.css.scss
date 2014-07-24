@@ -42,7 +42,7 @@ body{
 }
 
 .center_devise {
-  margin: 7em auto;
+  margin: 2em auto;
   text-align: center;
   color: gray;
 }
@@ -54,10 +54,12 @@ body{
 .cat-gif {
   height: 35em;
   width: 35em;
+  border: .5em solid #DCDED6;
   @include border-radius(40px);
 }
 
 .cat-gif2 {
+  margin-top: 2em;
   width: 35em;
   @include border-radius(40px);
 }
