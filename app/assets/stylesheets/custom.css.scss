@@ -21,7 +21,7 @@ html body {
 
 body{
   background: black;
-  margin-top: 92px;
+  margin-top: 6em;
 }
 
 .media-element {
@@ -34,12 +34,17 @@ body{
   background: #DCDED6;
   margin: 0 auto;
   text-align: center;
-  width: 70em;
+  width: 60em;
+  color: #363634;
   -webkit-border-radius: 40px !important;
   -moz-border-radius: 40px !important;
   border-radius: 40px !important;
   padding-top: 1em;
+  h1 {
+    margin-bottom: .4em;
+  }
 }
+
 
 .center_devise {
   margin: 2em auto;
@@ -60,6 +65,7 @@ body{
 
 .cat-gif2 {
   margin-top: 2em;
+  margin-bottom: 1em;
   width: 35em;
   @include border-radius(40px);
 }
@@ -98,4 +104,9 @@ body{
   color: gray;
   margin: 0 auto;
   text-align: center;
+}
+
+.alert {
+  text-align: center;
+  font-size: 2em;
 }

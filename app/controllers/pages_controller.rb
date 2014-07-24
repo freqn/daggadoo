@@ -5,12 +5,24 @@ class PagesController < ApplicationController
   def about
   end
 
-  def inside
+  def page_2
+    default_redir
   end
 
-  def inside_2
+  def page_3
+    default_redir
   end
 
-  def inside_3
+  def page_4
+    default_redir
+  end
+
+  private
+
+  def default_redir
+    if !user_signed_in?
+      redirect_to root_path
+      flash[:error] = "You must log in to do that!"
+    end
   end
 end
