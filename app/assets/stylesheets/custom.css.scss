@@ -14,8 +14,13 @@ $btn-success-bg: #2ABB67;
           border-radius: $radius;
 }
 
+
+html body {
+    background: image-url('http://wallpaperpanda.com/wallpapers/5Tn/4qK/5Tn4qKGT8.jpg');
+}
+
 body{
-  background: #DCDED6;
+  background: black;
   margin-top: 92px;
 }
 
@@ -24,11 +29,71 @@ body{
   @include border-radius(40px);
 }
 
+
 .center {
+  background: #DCDED6;
+  margin: 0 auto;
   text-align: center;
-  background: #FFFFFF;
+  width: 70em;
+  -webkit-border-radius: 40px !important;
+  -moz-border-radius: 40px !important;
+  border-radius: 40px !important;
+  padding-top: 1em;
+}
+
+.center_devise {
+  margin: 7em auto;
+  text-align: center;
+  color: gray;
 }
 
 .navbar-brand {
   font-weight: bold;
+}
+
+.cat-gif {
+  height: 35em;
+  width: 35em;
+  @include border-radius(40px);
+}
+
+.cat-gif2 {
+  width: 35em;
+  @include border-radius(40px);
+}
+
+.btn-gif {
+  margin-top: 2em;
+}
+
+.password {
+  margin-top: 1em;
+}
+
+/* Placeholder Text*/
+
+::-webkit-input-placeholder {
+   font-weight: normal;
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font-weight: normal;
+   text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-weight: normal;
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   font-weight: normal;
+   text-align: center;
+}
+
+.about {
+  color: gray;
+  margin: 0 auto;
+  text-align: center;
 }

@@ -4,6 +4,9 @@ Rails.application.routes.draw do
   devise_for :users
   root 'pages#home'
   get 'about' => "pages#about"
+  get 'inside' => "pages#inside"
+  get 'inside_2' => "pages#inside_2"
+  get 'inside_3' => "pages#inside_3"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
