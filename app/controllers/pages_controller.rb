@@ -5,16 +5,28 @@ class PagesController < ApplicationController
   def about
   end
 
-  def page_2
+  def cat_2
     default_redir
   end
 
-  def page_3
+  def cat_3
     default_redir
   end
 
-  def page_4
+  def cat_4
     default_redir
+  end
+
+  def cat_5
+  end
+
+  def cat_6
+  end
+
+  def cat_7
+  end
+
+  def creator
   end
 
   private

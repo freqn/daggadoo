@@ -1,12 +1,10 @@
-
-
-    <% if user_signed_in? %>
-    <div class="center_devise">
-    <div class="media-element">
-      <%= image_tag('http://33.media.tumblr.com/afdfb5a8306d8992725ea248769cf3dc/tumblr_n5ok0c2gYF1suwcgpo1_400.gif', class: 'cat-gif') %>
-    </div>
-    <%= link_to "Next", page_2_path, class: "btn btn-success btn-lg btn-gif"%>
-    <% else %>
-      <%= render 'layouts/default' %>
-    <% end %>
+<% if user_signed_in? %>
+<div class="center_devise">
+  <div class="media-element">
+    <%= image_tag('http://33.media.tumblr.com/afdfb5a8306d8992725ea248769cf3dc/tumblr_n5ok0c2gYF1suwcgpo1_400.gif', class: 'cat-gif') %>
+  </div>
+  <%= link_to "Next", cat_2_path, class: "btn btn-success btn-lg btn-gif"%>
+  <% else %>
+  <%= render 'layouts/default' %>
+  <% end %>
 </div>

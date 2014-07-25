@@ -1,0 +1,8 @@
+<div class="center_devise">
+    <% if user_signed_in? %>
+    <div class="media-element">
+      <%= image_tag('http://25.media.tumblr.com/e10c07924d7415a5519e36978dbcfb37/tumblr_mz0i38G7oW1sgxfddo1_500.gif', class: 'cat-gif') %>
+    </div>
+      <%= link_to "Next", root_path, class: "btn btn-success btn-lg btn-gif"%>
+    <% end %>
+</div>

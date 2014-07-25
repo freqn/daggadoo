@@ -1,0 +1,8 @@
+<div class="center_devise">
+    <% if user_signed_in? %>
+    <div class="media-element">
+      <%= image_tag('http://i1276.photobucket.com/albums/y462/staffpicks/Animated_GIFs/catsinspace.gif', class: 'cat-gif') %>
+    </div>
+      <%= link_to "Next", cat_6_path, class: "btn btn-success btn-lg btn-gif"%>
+    <% end %>
+</div>

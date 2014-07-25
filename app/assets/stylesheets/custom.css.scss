@@ -21,7 +21,7 @@ html body {
 
 body{
   background: black;
-  margin-top: 8.5em;
+  margin-top: 6.5em;
 }
 
 .media-element {
@@ -49,8 +49,23 @@ body{
 .center_devise {
   margin: 2em auto;
   text-align: center;
-  color: gray;
 }
+.center_devise2 {
+  margin: 2em auto;
+  text-align: center;
+  background-color: #DCDED6;
+  padding-bottom: 1.8em;
+  width: 20%;
+  padding-top: .002em;
+  @include border-radius(40px);
+  input {
+    @include border-radius(5px);
+    border: none;
+    cursor: center;
+    text-align: center;
+  }
+}
+
 
 .navbar-brand {
   font-weight: bold;
@@ -75,7 +90,7 @@ body{
 }
 
 .password {
-  margin-top: 1em;
+  margin: 1em 0;
 }
 
 /* Placeholder Text*/
@@ -109,4 +124,10 @@ body{
 .alert {
   text-align: center;
   font-size: 2em;
+}
+
+footer {
+  text-align: center;
+  margin-top: 1.5em;
+  color: gray;
 }
