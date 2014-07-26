@@ -11,17 +11,16 @@
   <%= render 'layouts/header' %>
 
 <div class="container container_devise">
+  <%= render 'layouts/messages' %>
 
-  <% flash.each do |name, msg| %>
-     <%= content_tag(:div, msg, class: "alert alert-info") %>
-  <% end %>
+
 
 
   <%= yield %>
 </div>
 
 <footer>
-  <p>Created by <%= link_to "C.Eyler", creator_path %> 2014 </p>
+    <p>Created by <%= link_to "C.Eyler", creator_path %> 2014 </p>
 </footer>
 
 </body>

@@ -15,6 +15,7 @@ $btn-success-bg: #2ABB67;
 }
 
 
+
 html body {
     background: image-url('http://wallpaperpanda.com/wallpapers/5Tn/4qK/5Tn4qKGT8.jpg');
 }
@@ -50,6 +51,7 @@ body{
   margin: 2em auto;
   text-align: center;
 }
+
 .center_devise2 {
   margin: 2em auto;
   text-align: center;
@@ -63,6 +65,9 @@ body{
     border: none;
     cursor: center;
     text-align: center;
+    &:focus{
+    outline: 0;
+    }
   }
 }
 
@@ -121,13 +126,79 @@ body{
   text-align: center;
 }
 
-.alert {
-  text-align: center;
-  font-size: 2em;
-}
+
 
 footer {
   text-align: center;
-  margin-top: 1.5em;
   color: gray;
+  background-color: black;
+  margin-bottom: 0;
+  position: fixed;
+  bottom: 0px;
+  right: 45%;
+  left: 45%;
+  height:30px;
+  padding-top: .8em;
+  @include border-radius(10px 10px 0 0);
+  p {
+    font-size: .8em;
+  }
 }
+
+
+/*flash*/
+.alert-error {
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    white-space: nowrap;
+    font-size: 1.5em;
+    ul, li {
+      list-style-type: none;
+    }
+ }
+
+.alert-alert {
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 1.5em;
+    ul, li{
+      list-style-type: none;
+    }
+ }
+
+.alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #468847;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 1.5em;
+    ul, li{
+      list-style-type: none;
+    }
+ }
+
+.alert-notice {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #468847;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 1.5em;
+    ul, li{
+      list-style-type: none;
+    }
+ }
