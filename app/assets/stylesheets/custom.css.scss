@@ -34,6 +34,7 @@ body{
   margin-top: -1em;
   text-align: center;
   width: 73%;
+  min-width: 600px;
   color: #363634;
   -webkit-border-radius: 40px !important;
   -moz-border-radius: 40px !important;
@@ -55,7 +56,7 @@ body{
   text-align: center;
   background-color: #DCDED6;
   padding-bottom: 1.8em;
-  width: 20%;
+  width: 20em;
   padding-top: .002em;
   @include border-radius(40px);
   input {
@@ -126,6 +127,7 @@ body{
   margin: 0 auto;
   text-align: center;
 }
+
 footer {
   text-align: center;
   color: gray;
@@ -139,12 +141,13 @@ footer {
   padding-top: .8em;
   @include border-radius(10px 10px 0 0);
   p {
-    font-size: .8em;
+    font-size: 100%;
   }
 }
 
 
 /*flash*/
+
 .alert-error {
     background-color: #f2dede;
     border-color: #eed3d7;
