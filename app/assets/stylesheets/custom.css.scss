@@ -138,10 +138,10 @@ footer {
   right: 45%;
   left: 45%;
   height:30px;
-  padding-top: .8em;
+  padding: .2em 0;
   @include border-radius(10px 10px 0 0);
   p {
-    font-size: 100%;
+    font-size: .5em;
   }
 }
 
@@ -202,4 +202,8 @@ footer {
     ul, li{
       list-style-type: none;
     }
+ }
+
+ .pins {
+   color: white;
  }
